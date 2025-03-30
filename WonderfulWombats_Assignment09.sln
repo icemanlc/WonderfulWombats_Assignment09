@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WonderfulWombats_Assignment09", "WonderfulWombats_Assignment09\WonderfulWombats_Assignment09.pyproj", "{7C117A71-55A8-4BB6-87E1-7DBA524FABB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C117A71-55A8-4BB6-87E1-7DBA524FABB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C117A71-55A8-4BB6-87E1-7DBA524FABB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {812009B3-EE5F-4205-A239-4E9FEE1C2E24}
+	EndGlobalSection
+EndGlobal
