@@ -34,7 +34,7 @@
     <Compile Include="SAPackage\module1.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ZHPackage\module1.py">
+    <Compile Include="ZHPackage\lookup.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ZHPackage\__init__.py">
