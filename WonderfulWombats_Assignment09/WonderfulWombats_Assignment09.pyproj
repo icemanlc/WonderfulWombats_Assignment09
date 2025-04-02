@@ -31,7 +31,7 @@
     <Compile Include="LIPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="SAPackage\module1.py">
+    <Compile Include="SAPackage\description.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ZHPackage\lookup.py">

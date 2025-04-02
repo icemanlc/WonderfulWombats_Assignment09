@@ -16,11 +16,13 @@
  
 from LIPackage.module1 import *
 from ZHPackage.lookup import *
+from SAPackage.description import *
 
 
 def main():
 
-#Lucas Section 
+
+    #Lucas Section 
 
     selector = ProductSelector()
     selector.load_and_select_product()
@@ -48,7 +50,17 @@ def main():
 
     #Start Saivamsi Section
 
-    #Saivamsi's Code goes here. Make sure indentation is aligned with rest of body as above.
+    analytics = ProductAnalytics() 
+    
+    items_sold = analytics.get_items_sold(selector.product_id)
+    output_sentence = analytics.create_sales_report(
+        selector.description,
+        manufacturer_name,
+        brand_name,
+        items_sold
+    )
+    print(output_sentence)
+    analytics.close_connection() 
 
     #End Saivamsi Section
 
