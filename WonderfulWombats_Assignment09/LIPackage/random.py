@@ -1,3 +1,15 @@
+# File Name : Random.py
+# Student Name: Lucas Iceman
+# email:  icemanlc@mail.uc.edu
+# Assignment Number: Assignment 09
+# Due Date:   4/3/2025
+# Course #/Section:   IS4010-001
+# Semester/Year:   Spring 2025
+# Brief Description of the assignment:We extract data from the Grocery Store Simulator database in a SQL Server and run queries to explore the data.
+# Brief Description of what this module does: this moduale Randomly select one row from the data structure from the query. 
+# Citations: N/A
+# Anything else that's relevant:N/A
+
 import pyodbc
 import random
 
@@ -24,6 +36,10 @@ class ProductSelector:
         return conn
 
     def load_and_select_product(self):
+        """
+        Run SQL statement and store a random instence 
+        @return No products found
+        """
         conn = self.connect_to_database()
         cursor = conn.cursor()
         cursor.execute('SELECT ProductID, [UPC-A ], Description, ManufacturerID, BrandID FROM tProduct')

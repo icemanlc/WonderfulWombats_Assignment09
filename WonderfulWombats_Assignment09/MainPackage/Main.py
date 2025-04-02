@@ -7,14 +7,12 @@
 # Course #/Section:   IS 4010 Section 001
 # Semester/Year:   Spring 2025
 # Brief Description of the assignment:  We extract data from the Grocery Store Simulator database in a SQL Server and run queries to explore the data.
-
 # Brief Description of what this module does. We work on connecting to external data sources and retrieving information to explore data using python.
 # Citations: N/A
-
 # Anything else that's relevant: N/A
 
  
-from LIPackage.module1 import *
+from LIPackage.random import *
 from ZHPackage.lookup import *
 from SAPackage.description import *
 
@@ -26,13 +24,13 @@ def main():
 
     selector = ProductSelector()
     selector.load_and_select_product()
-
+    """
     print("Randomly selected product:")
     print(f"Description: {selector.description}")
     print(f"Product ID: {selector.product_id}")
     print(f"Manufacturer ID: {selector.manufacturer_id}")
     print(f"Brand ID: {selector.brand_id}")
-
+    """
 
     #End Lucas Section
 
@@ -42,10 +40,10 @@ def main():
 
     manufacturer_name = lookup.find_manufacturer_name(selector.manufacturer_id)
     brand_name = lookup.find_brand_name(selector.brand_id)
-
+    """
     print(f"Manufacturer name: {manufacturer_name}")
     print(f"Brand name: {brand_name}")
-
+    """
     #End Zulqarnayan Section
 
     #Start Saivamsi Section
